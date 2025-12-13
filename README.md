@@ -22,7 +22,7 @@ The dataset includes ~1400 responses measuring mental health in the tech workspa
 
 ---
 
-## Environment
+### Environment
 
 - **Python version:** 3.12.10  
 - **Key packages and versions:**  
@@ -39,7 +39,7 @@ The dataset includes ~1400 responses measuring mental health in the tech workspa
 
 ---
 
-## Usage
+### Usage
 
 To reproduce the analysis:
 
