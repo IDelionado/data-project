@@ -78,4 +78,15 @@ This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**
 You are free to use, modify, and share this project, but any derivative work must also be released under the same license.  
 For more details, see the [LICENSE](https://www.gnu.org/licenses/gpl-3.0.txt) file.
 
-## README.md # Project overview and instructions
+## README.md 
+Project overview and instructions
+
+├── data/       # Raw dataset from OSMI Mental Health Tech Survey 2016
+├── figures/    # EDA plots and visualizations
+├── results/    # Model outputs: confusion matrices, permutation feature importance, SHAP plots, performance summaries
+├── report/     # Final project report (PDF)
+├── src/        # Scripts for data preprocessing, modeling, evaluation, and figure generation
+├── .gitignore  # Files and directories ignored by git
+├── LICENSE     # Project license (GPL-3.0)
+└── README.md   # Project overview and instructions
+
