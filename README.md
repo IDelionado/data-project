@@ -48,13 +48,16 @@ To reproduce the analysis:
 3) python src/main.py
 
 ## figures/
-EDA plots and visualizations
+- EDA plots and visualizations
 
 ## results/
-Model outputs: confusion matrices, permutation feature importance, SHAP plots, performance summaries
+- Confusion matrix
+- Permutation feature importance
+- SHAP plots
+- Feature Importance
 
 ## report/
-Final project report (PDF)
+- Final project report (PDF)
 ### Key Findings
 
 The Random Forest model performed best, improving baseline accuracy by ~26%.
@@ -65,10 +68,10 @@ Workplace-specific features (e.g., awareness of employer-provided mental health 
 
 Future work could isolate workplace-specific questions to better understand their predictive contribution.
 ## src/
- Scripts for data preprocessing, modeling, evaluation, and figure generation
+- Scripts for data preprocessing, modeling, evaluation, and figure generation
 
 ## .gitignore
- Files and directories ignored by git
+- Files and directories ignored by git
 
 ## LICENSE
 ### Project license (GPL-3.0)
@@ -81,12 +84,4 @@ For more details, see the [LICENSE](https://www.gnu.org/licenses/gpl-3.0.txt) fi
 ## README.md 
 Project overview and instructions
 
-├── data/       # Raw dataset from OSMI Mental Health Tech Survey 2016
-├── figures/    # EDA plots and visualizations
-├── results/    # Model outputs: confusion matrices, permutation feature importance, SHAP plots, performance summaries
-├── report/     # Final project report (PDF)
-├── src/        # Scripts for data preprocessing, modeling, evaluation, and figure generation
-├── .gitignore  # Files and directories ignored by git
-├── LICENSE     # Project license (GPL-3.0)
-└── README.md   # Project overview and instructions
 
