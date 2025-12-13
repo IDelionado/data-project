@@ -1,18 +1,28 @@
-# Mental Health in Tech: 
+```markdown
+# Mental Health in Tech
 
-This project explores attitudes towards mental health in the tech workspace and how they relate to seeking professional treatment. Using the 2016 OSMI Mental Health Tech Survey (~1400 responses), I applied machine learning models to predict treatment-seeking behavior and analyze feature importance.
+This project explores attitudes towards mental health in the tech workspace and how they relate to seeking professional treatment. Using the 2016 OSMI Mental Health Tech Survey (~1400 responses), machine learning models were applied to predict treatment-seeking behavior and analyze feature importance.
+
+---
 
 ## Project Structure
 
-The goal of my project was to explore attitudes towards mental health in the tech workspace and how these attitudes affect an individual’s likelihood to receive professional treatment. My dataset was from the Open Science Monitoring Initiative. Its goals are to fight stigma around mental health disorders by speaking openly about experiences and educate the tech community on the economic impact of mental disorders and how it affects worker productivity. I used their Mental Health Tech Survey from 2016 which includes about 1400 responses measuring mental health in the tech workspace. The primary difficulty of the dataset was missing values due to unanswered survey questions. 
+The goal of this project was to explore attitudes towards mental health in the tech workspace and how these attitudes affect an individual’s likelihood to receive professional treatment. The dataset is from the Open Science Monitoring Initiative (OSMI), which aims to fight stigma around mental health disorders and educate the tech community on the economic impact of mental health issues.  
 
-## data/ 
-# Raw dataset from OSMI Mental Health Tech Survey 2016
+The primary challenge of the dataset was missing values due to unanswered survey questions.
 
-The dataset is from the Open Science Monitoring Initiative’s Mental Health Tech Survey (2016). It includes ~1400 responses measuring mental health in the tech workspace. The dataset contains missing values due to unanswered survey questions.  
+---
+
+## data/  
+**Raw dataset from OSMI Mental Health Tech Survey 2016**  
+
+The dataset includes ~1400 responses measuring mental health in the tech workspace.  
+
 **Source:** [OSMI Mental Health Tech Survey 2016](https://www.kaggle.com/datasets/osmi/mental-health-in-tech-2016)
 
-### Environment
+---
+
+## Environment
 
 - **Python version:** 3.12.10  
 - **Key packages and versions:**  
@@ -25,19 +35,18 @@ The dataset is from the Open Science Monitoring Initiative’s Mental Health Tec
   - shap 0.47.2  
   - polars 1.27.1  
 
-*You can also run `src/check_environment.py` to verify your Python and package versions match.*
+*You can also run `src/check_environment.py` to verify your Python and package versions.*
 
-### Usage
-To reproduce the analysis:
+---
 
-1. Clone the repository:  
+## Usage
+
 To reproduce the analysis:
 
 ```bash
 git clone <repo_url>
 pip install -r requirements.txt
 python src/main.py
-
 Install the required Python packages listed in requirements.txt and run src/main.py to reproduce the analysis.
 
 ### figures/   # EDA plots and visualizations
