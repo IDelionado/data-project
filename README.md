@@ -43,15 +43,10 @@ The dataset includes ~1400 responses measuring mental health in the tech workspa
 
 To reproduce the analysis:
 
-```bash
-git clone <repo_url>
-pip install -r requirements.txt
-python src/main.py
+1) git clone <repo_url>
+2) pip install -r requirements.txt
+3) python src/main.py
 
----
-
-### figures/   # EDA plots and visualizations
-### results/   # Model outputs
 ### figures/
 # EDA plots and visualizations
 
