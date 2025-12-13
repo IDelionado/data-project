@@ -31,8 +31,12 @@ The dataset is from the Open Science Monitoring Initiative’s Mental Health Tec
 To reproduce the analysis:
 
 1. Clone the repository:  
+To reproduce the analysis:
+
 ```bash
 git clone <repo_url>
+pip install -r requirements.txt
+python src/main.py
 
 Install the required Python packages listed in requirements.txt and run src/main.py to reproduce the analysis.
 
