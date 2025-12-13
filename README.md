@@ -47,15 +47,15 @@ To reproduce the analysis:
 2) pip install -r requirements.txt
 3) python src/main.py
 
-### figures/
-# EDA plots and visualizations
+## figures/
+EDA plots and visualizations
 
 ## results/
-# Model outputs: confusion matrices, permutation feature importance, SHAP plots, performance summaries
+Model outputs: confusion matrices, permutation feature importance, SHAP plots, performance summaries
 
 ## report/
-# Final project report (PDF)
-# Key Findings
+Final project report (PDF)
+### Key Findings
 
 The Random Forest model performed best, improving baseline accuracy by ~26%.
 
@@ -65,13 +65,13 @@ Workplace-specific features (e.g., awareness of employer-provided mental health 
 
 Future work could isolate workplace-specific questions to better understand their predictive contribution.
 ## src/
-# Scripts for data preprocessing, modeling, evaluation, and figure generation
+ Scripts for data preprocessing, modeling, evaluation, and figure generation
 
 ## .gitignore
-# Files and directories ignored by git
+ Files and directories ignored by git
 
 ## LICENSE
-# Project license (GPL-3.0)
+### Project license (GPL-3.0)
 
 ### License
 This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.  
