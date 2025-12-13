@@ -1,4 +1,4 @@
-```markdown
+
 # Mental Health in Tech
 
 This project explores attitudes towards mental health in the tech workspace and how they relate to seeking professional treatment. Using the 2016 OSMI Mental Health Tech Survey (~1400 responses), machine learning models were applied to predict treatment-seeking behavior and analyze feature importance.
@@ -47,7 +47,8 @@ To reproduce the analysis:
 git clone <repo_url>
 pip install -r requirements.txt
 python src/main.py
-Install the required Python packages listed in requirements.txt and run src/main.py to reproduce the analysis.
+
+---
 
 ### figures/   # EDA plots and visualizations
 ### results/   # Model outputs
