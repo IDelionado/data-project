@@ -36,7 +36,9 @@ git clone <repo_url>
 
 Install the required Python packages listed in requirements.txt and run src/main.py to reproduce the analysis.
 
-## figures/
+### figures/   # EDA plots and visualizations
+### results/   # Model outputs
+### figures/
 # EDA plots and visualizations
 
 ## results/
