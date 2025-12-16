@@ -13,7 +13,7 @@ The primary challenge of the dataset was missing values due to unanswered survey
 
 ---
 
-## data/  
+## Data (data/)  
 **Raw dataset from OSMI Mental Health Tech Survey 2016**  
 
 The dataset includes ~1400 responses measuring mental health in the tech workspace.  
@@ -47,16 +47,16 @@ To reproduce the analysis:
 2) pip install -r requirements.txt
 3) python src/main.py
 
-## figures/
+## Figures (figures/)
 - EDA plots and visualizations
 
-## results/
+## Results (results/)
 - Confusion matrix
 - Permutation feature importance
 - SHAP plots
 - Feature Importance
 
-## report/
+## Report (report/)
 - Final project report (PDF)
 ### Key Findings
 
@@ -67,7 +67,7 @@ Features most associated with seeking professional treatment were prior mental h
 Workplace-specific features (e.g., awareness of employer-provided mental health care or negative workplace experiences) had less impact, suggesting broader personal factors are more influential.
 
 Future work could isolate workplace-specific questions to better understand their predictive contribution.
-## src/
+## Src (src/)
 - Scripts for data preprocessing, modeling, evaluation, and figure generation
 
 ## .gitignore
